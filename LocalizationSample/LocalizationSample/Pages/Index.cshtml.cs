@@ -21,17 +21,17 @@ namespace LocalizationSample.Pages
 
         public IActionResult OnGetLoadArabic()
         {
-            Response.Cookies.Append(".AspNetCore.Culture", "c=ar|uic=ar");
+            Response.Cookies.Append(".AspNetCore.Culture", "c=ar|uic=ar", new CookieOptions { Expires=DateTime.Now.AddDays(1)});
             return Redirect("/");
         }
         public IActionResult OnGetLoadFrench()
         {
-            Response.Cookies.Append(".AspNetCore.Culture", "c=fr|uic=fr");
+            Response.Cookies.Append(".AspNetCore.Culture", "c=fr|uic=fr", new CookieOptions { Expires = DateTime.Now.AddDays(1) });
             return Redirect("/");
         }
         public IActionResult OnGetLoadEnglish()
         {
-            Response.Cookies.Append(".AspNetCore.Culture", "c=en|uic=en");
+            Response.Cookies.Append(".AspNetCore.Culture", "c=en|uic=en", new CookieOptions { Expires = DateTime.Now.AddDays(1) });
             return Redirect("/");
         }
     }

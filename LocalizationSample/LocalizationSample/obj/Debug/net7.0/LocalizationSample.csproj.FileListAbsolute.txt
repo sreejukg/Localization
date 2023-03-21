@@ -37,3 +37,6 @@ D:\Github\Localization\LocalizationSample\LocalizationSample\bin\Debug\net7.0\ar
 D:\Github\Localization\LocalizationSample\LocalizationSample\bin\Debug\net7.0\fr\LocalizationSample.resources.dll
 D:\Github\Localization\LocalizationSample\LocalizationSample\obj\Debug\net7.0\ar\LocalizationSample.resources.dll
 D:\Github\Localization\LocalizationSample\LocalizationSample\obj\Debug\net7.0\fr\LocalizationSample.resources.dll
+D:\Github\Localization\LocalizationSample\LocalizationSample\obj\Debug\net7.0\LocalizationSample.Resources.SharedResource.resources
+D:\Github\Localization\LocalizationSample\LocalizationSample\obj\Debug\net7.0\LocalizationSample.Resources.SharedResource.ar.resources
+D:\Github\Localization\LocalizationSample\LocalizationSample\obj\Debug\net7.0\LocalizationSample.Resources.SharedResource.fr.resources
